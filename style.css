@@ -1,0 +1,118 @@
+body {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+    letter-spacing: .1em;
+    margin: 0px;
+}
+
+main { 
+    display: grid;
+    grid-template-columns: 15% 35% 35%;
+    margin-top: 3em;
+}
+
+/* -------- Panel Properties --------- */
+header {
+    width: 100%;
+    background-color: rgb(135, 186, 232);
+}
+
+section {
+    max-width: 100%;
+    min-height: 80vh;
+    overflow: hidden;
+}
+
+section#raid1 {
+    background-color: white;
+}
+
+section#raid2 {
+    height: 100vh;
+    background-color: rgb(20, 40, 58);
+    position: relative;
+}
+
+/* -------- Text Properties -------- */
+
+article {
+    max-width: 100%;
+    padding: 20px;
+    margin: 0px auto;
+}
+
+h1 {
+    font-size: 24px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 70px;
+    letter-spacing: 0.2em;
+    text-align: center;
+}
+
+.startlogo {
+    position: fixed;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+
+.endlogo {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+
+p {
+    text-align: center;
+}
+
+.textdark {
+    color: rgb(30, 102, 166);
+}
+
+.textlight {
+    color: rgb(135, 186, 232); 
+}
+
+/* -------- Nav Bar Properties -------- */
+nav {
+    list-style-type: none;
+    padding: 0;
+    overflow: auto;
+    background-color: rgb(30, 102, 166);
+    box-shadow: 0em 1em 2em 0em rgba(0,0,0,0.2);
+
+    /* Fix bar to top */
+    position: sticky;
+    top: 0px;
+}
+
+a {
+    float: left;
+    display: block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 1em;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: rgb(18, 65, 105);
+    box-shadow: 0em 1em 2em 0em rgba(0,0,0,0.3);
+}
+
+/* Other */
+
+img#main_rsaf {
+    height: 2em;
+}
+
+img#salute {
+    max-height: 40%;
+    margin-top: 150px;
+    padding: 0vh;
+    opacity: 80%;
+}
